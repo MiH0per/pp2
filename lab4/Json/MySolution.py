@@ -20,5 +20,5 @@ for interface in interfaces:
     speed = attributes.get('speed', 'inherit')
     mtu = attributes.get('mtu', '')
 
-    if 32 < int(substring) < 36:
-        print("{:<50} {:<20} {:<8} {:<6}".format(dn, description, speed, mtu))
+    
+    print("{:<50} {:<20} {:<8} {:<6}".format(dn, description, speed, mtu))
