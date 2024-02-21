@@ -78,4 +78,4 @@ def tenth(text):
     return re.sub(r'([a-z])([A-Z])', r'\1_\2', text).lower() 
 
 
-print(tenth("testingTheMessagesTothisExercise"))
+#print(tenth("testingTheMessagesTothisExercise"))
