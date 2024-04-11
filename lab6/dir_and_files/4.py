@@ -1,7 +1,7 @@
 import os
+w
 
-
-filepath = r'/../..'
+filepath = r'dir_and_files/7/input.txt'
 
 def count_lines(path):
     with open(path, 'r') as file:

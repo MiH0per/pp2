@@ -32,7 +32,7 @@ while done:
         y = 25
 
     screen.fill((255, 255, 255))
-    pygame.draw.circle(screen, (34, 35,123), [x, y], 25)
+    pygame.draw.circle(screen, (34, 35, 123), [x, y], 25)
 
     pygame.display.flip()
     clock.tick(60)

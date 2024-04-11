@@ -23,7 +23,6 @@ while not done:
 
     sec_angle = -(ct.second * 6)
     min_angle = -(ct.minute * 6)
-
     rotated_leftarm = pygame.transform.rotate(leftarm, sec_angle - 3)
     rotated_rightarm = pygame.transform.rotate(rightarm, min_angle - 45)
 
